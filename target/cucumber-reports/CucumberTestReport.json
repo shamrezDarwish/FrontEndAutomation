@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12487976100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Iframe handling test",
+        "description": "",
+        "id": "test-an-iframe-page;iframe-handling-test",
+        "after": [
+          {
+            "result": {
+              "duration": 832425601,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3387647700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Website",
+            "match": {
+              "location": "StepDefinitionsClass.user_is_on_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 134401300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Iframe option",
+            "match": {
+              "location": "StepDefinitionsClass.user_click_on_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1514550399,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Home button inside the iframe",
+            "match": {
+              "location": "StepDefinitionsClass.user_click_on_Home_button_inside_the_iframe()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 579152500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be able see home page inside the iframe",
+            "match": {
+              "location": "StepDefinitionsClass.user_should_be_able_see_home_page_inside_the_iframe()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Test an Iframe page",
+    "description": "",
+    "id": "test-an-iframe-page",
+    "keyword": "Feature",
+    "uri": "Features/Login.feature"
+  }
+]

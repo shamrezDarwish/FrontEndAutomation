@@ -1,0 +1,14 @@
+2021-04-08 23:02:11,596 [main] INFO logger_File - Scenario Iframe handling test Started 
+2021-04-08 23:02:16,074 [main] INFO logger_File - Retail page is opened
+2021-04-08 23:02:16,082 [main] INFO logger_File - Page title  is verified
+2021-04-08 23:02:16,532 [main] INFO logger_File - User click on Iframe options
+2021-04-08 23:02:17,132 [main] INFO logger_File - switched to iframe
+2021-04-08 23:02:17,297 [main] INFO logger_File - User click on HomeMenu
+2021-04-08 23:02:22,384 [main] INFO logger_File - Iframe handling test   passed
+2021-04-09 17:15:59,819 [main] INFO logger_File - Scenario Iframe handling test Started 
+2021-04-09 17:16:15,005 [main] INFO logger_File - Retail page is opened
+2021-04-09 17:16:15,032 [main] INFO logger_File - Page title  is verified
+2021-04-09 17:16:15,764 [main] INFO logger_File - User click on Iframe options
+2021-04-09 17:16:16,777 [main] INFO logger_File - switched to iframe
+2021-04-09 17:16:17,280 [main] INFO logger_File - User click on HomeMenu
+2021-04-09 17:16:18,697 [main] INFO logger_File - Iframe handling test   passed
