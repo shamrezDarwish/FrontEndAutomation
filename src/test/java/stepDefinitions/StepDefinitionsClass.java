@@ -1,54 +1,56 @@
 package stepDefinitions;
 
-import org.junit.Assert;
+
 
 import core.Base;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageObjects.DemoPageObj;
-import utilities.WebDriverUtility;
+
 
 public class StepDefinitionsClass extends Base {
-
-	DemoPageObj demoPageObj = new DemoPageObj();
 	
-	@Given("^User is on Website$")
-	public void user_is_on_Website() throws Throwable {
-		// we need to get to  website.
-		Base.initializeDriver();
-		logger.info("Retail page is opened");
-		String actualPageTitle = demoPageObj.getPageTitle();
-		String expectedPageTitle = "Frames and Window Dummy Testing Site - GlobalSQA";
-		Assert.assertEquals(expectedPageTitle, actualPageTitle);
-		logger.info("Page title  is verified");
-		WebDriverUtility.screenShot();
+	DemoPageObj page = new DemoPageObj();
+
+	
+	@Given("^user is on Base Page$")
+	public void user_is_on_Base_Page() throws Throwable {
+		initializeDriver();
 
 	}
 
-	@When("^User click on Iframe option$")
-	public void user_click_on_option() throws Throwable {
-		demoPageObj.clickOnElement();
-		logger.info("User click on Iframe options");
-
+	@When("^user click on Tile sort & filtering$")
+	public void user_click_on_Tile_sort_filtering() throws Throwable {
+		page.clickOnTileSortFiltering();
 	}
 
-	@And("^User click on Home button inside the iframe$")
-	public void user_click_on_Home_button_inside_the_iframe() throws Throwable {
-		demoPageObj.switchToIframe();
-		logger.info("switched to iframe");
-		//WebDriverUtility.wait(5000);
-		demoPageObj.clickOnHomeMenu();
-		logger.info("User click on HomeMenu");
+	@When("^user set Animal set using letter '(.+)'$")
+	public void user_set_Animal_set_using_letter_a(String inputValue) throws Throwable {
+		page.enterAninalInputField(inputValue);
+	
 	}
 
-	@Then("^User should be able see home page inside the iframe$")
-	public void user_should_be_able_see_home_page_inside_the_iframe() throws Throwable {
-		Assert.assertTrue("Home Menu is present", demoPageObj.validateHomeMenuIspresent());
-		WebDriverUtility.screenShot();
-		WebDriverUtility.switchToMainPage();
-		
+	@When("^user set Max life span set to  (.+)$")
+	public void user_set_Max_life_span_set_to(String value) throws Throwable {
+	
+	}
+
+	@When("^user 	Sort order by „Life Span”$")
+	public void user_Sort_order_by_Life_Span() throws Throwable {
+	page.sortByElementValue();
+	}
+
+	@When("^user Select checkbox  to Ascending$")
+	public void user_Select_checkbox_to_Ascending() throws Throwable {
+	 page.selectAscendingCheckBox();
+	}
+
+	@Then("^user Assert that results contains more than '(.+)' items$")
+	public void user_Assert_that_results_contains_more_than_items(String input) throws Throwable {
 
 	}
+	
+	
+	
 }

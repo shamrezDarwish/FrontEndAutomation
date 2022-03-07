@@ -11,13 +11,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Base {
 
-	// In this class we define property of below Classes and will use them to child
-	// classes
-	// WebDriver
-	// Logger
-	// Properties class
-	//test
-	//this is changes in local and needs to be pushed to repo
+
 
 	public static WebDriver driver;
 	public static Properties properties;

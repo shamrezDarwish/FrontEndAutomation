@@ -3,10 +3,31 @@
     "line": 1,
     "elements": [
       {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9911884000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Base Page",
+            "match": {
+              "location": "StepDefinitionsClass.user_is_on_Base_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
         "before": [
           {
             "result": {
-              "duration": 12487976100,
+              "duration": 3940046600,
               "status": "passed"
             },
             "match": {
@@ -14,14 +35,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "Iframe handling test",
+        "line": 8,
+        "name": "Exercise one",
         "description": "",
-        "id": "test-an-iframe-page;iframe-handling-test",
+        "id": "test-demo;exercise-one",
         "after": [
           {
             "result": {
-              "duration": 832425601,
+              "duration": 889149100,
               "status": "passed"
             },
             "match": {
@@ -34,65 +55,104 @@
         "steps": [
           {
             "result": {
-              "duration": 3387647700,
+              "duration": 448604600,
               "status": "passed"
             },
-            "line": 5,
-            "name": "User is on Website",
+            "line": 9,
+            "name": "user click on Tile sort \u0026 filtering",
             "match": {
-              "location": "StepDefinitionsClass.user_is_on_Website()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 134401300,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User click on Iframe option",
-            "match": {
-              "location": "StepDefinitionsClass.user_click_on_option()"
+              "location": "StepDefinitionsClass.user_click_on_Tile_sort_filtering()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1514550399,
-              "status": "passed"
+              "duration": 10206743700,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id\u003d\u0027isc_EU\u0027]\"}\n  (Session info: chrome\u003d99.0.4844.51)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027DESKTOP-RT6M74U\u0027, ip: \u0027192.168.1.100\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\\Users\\darwi\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e3c29b2eb42f7eb6824ef74f0e8c7bb5\n*** Element info: {Using\u003dxpath, value\u003d//input[@id\u003d\u0027isc_EU\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\r\n\tat pageObjects.DemoPageObj.enterAninalInputField(DemoPageObj.java:43)\r\n\tat stepDefinitions.StepDefinitionsClass.user_set_Animal_set_using_letter_a(StepDefinitionsClass.java:30)\r\n\tat ✽.When user set Animal set using letter \u0027a\u0027(Features/CucumberDemo.feature:10)\r\n",
+              "status": "failed"
             },
-            "line": 7,
-            "name": "User click on Home button inside the iframe",
+            "line": 10,
+            "name": "user set Animal set using letter \u0027a\u0027",
             "match": {
-              "location": "StepDefinitionsClass.user_click_on_Home_button_inside_the_iframe()"
+              "arguments": [
+                {
+                  "val": "a",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinitionsClass.user_set_Animal_set_using_letter_a(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user set Max life span set to  40",
+            "match": {
+              "arguments": [
+                {
+                  "val": "40",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitionsClass.user_set_Max_life_span_set_to(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 579152500,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 8,
-            "name": "User should be able see home page inside the iframe",
+            "line": 12,
+            "name": "user \tSort order by „Life Span”",
             "match": {
-              "location": "StepDefinitionsClass.user_should_be_able_see_home_page_inside_the_iframe()"
+              "location": "StepDefinitionsClass.user_Sort_order_by_Life_Span()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user Select checkbox  to Ascending",
+            "match": {
+              "location": "StepDefinitionsClass.user_Select_checkbox_to_Ascending()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user Assert that results contains more than \u002712\u0027 items",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefinitionsClass.user_Assert_that_results_contains_more_than_items(String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 3,
+            "line": 7,
             "name": "@test"
           }
         ]
       }
     ],
-    "name": "Test an Iframe page",
+    "name": "Test Demo",
     "description": "",
-    "id": "test-an-iframe-page",
+    "id": "test-demo",
     "keyword": "Feature",
-    "uri": "Features/Login.feature"
+    "uri": "Features/CucumberDemo.feature"
   }
 ]

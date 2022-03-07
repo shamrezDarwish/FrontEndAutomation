@@ -1,14 +1,27 @@
-2021-04-08 23:02:11,596 [main] INFO logger_File - Scenario Iframe handling test Started 
-2021-04-08 23:02:16,074 [main] INFO logger_File - Retail page is opened
-2021-04-08 23:02:16,082 [main] INFO logger_File - Page title  is verified
-2021-04-08 23:02:16,532 [main] INFO logger_File - User click on Iframe options
-2021-04-08 23:02:17,132 [main] INFO logger_File - switched to iframe
-2021-04-08 23:02:17,297 [main] INFO logger_File - User click on HomeMenu
-2021-04-08 23:02:22,384 [main] INFO logger_File - Iframe handling test   passed
-2021-04-09 17:15:59,819 [main] INFO logger_File - Scenario Iframe handling test Started 
-2021-04-09 17:16:15,005 [main] INFO logger_File - Retail page is opened
-2021-04-09 17:16:15,032 [main] INFO logger_File - Page title  is verified
-2021-04-09 17:16:15,764 [main] INFO logger_File - User click on Iframe options
-2021-04-09 17:16:16,777 [main] INFO logger_File - switched to iframe
-2021-04-09 17:16:17,280 [main] INFO logger_File - User click on HomeMenu
-2021-04-09 17:16:18,697 [main] INFO logger_File - Iframe handling test   passed
+2022-03-07 06:05:05,168 [main] INFO logger_File - Scenario Iframe handling test Started 
+2022-03-07 06:05:16,468 [main] INFO logger_File - Retail page is opened
+2022-03-07 06:05:16,600 [main] INFO logger_File - Page title  is verified
+2022-03-07 06:05:17,127 [main] INFO logger_File - User click on Iframe options
+2022-03-07 06:05:18,434 [main] INFO logger_File - switched to iframe
+2022-03-07 06:05:18,916 [main] INFO logger_File - User click on HomeMenu
+2022-03-07 06:05:20,380 [main] INFO logger_File - Iframe handling test   passed
+2022-03-07 06:45:42,224 [main] INFO logger_File - Scenario Exercise one Started 
+2022-03-07 06:45:50,863 [main] INFO logger_File - Exercise one   undefined
+2022-03-07 07:09:11,668 [main] INFO logger_File - Scenario Exercise one Started 
+2022-03-07 07:09:19,700 [main] INFO logger_File - Exercise one   passed
+2022-03-07 07:12:47,388 [main] INFO logger_File - Scenario Exercise one Started 
+2022-03-07 07:13:45,661 [main] INFO logger_File - Exercise one   failed
+2022-03-07 07:15:13,668 [main] INFO logger_File - Scenario Exercise one Started 
+2022-03-07 07:19:57,889 [main] INFO logger_File - Scenario Exercise one Started 
+2022-03-07 07:20:56,513 [main] INFO logger_File - Scenario Exercise one Started 
+2022-03-07 07:22:43,420 [main] INFO logger_File - Exercise one   failed
+2022-03-07 07:25:12,194 [main] INFO logger_File - Scenario Exercise one Started 
+2022-03-07 07:25:34,901 [main] INFO logger_File - Exercise one   failed
+2022-03-07 07:29:15,684 [main] INFO logger_File - Scenario Exercise one Started 
+2022-03-07 07:29:34,159 [main] INFO logger_File - Exercise one   failed
+2022-03-07 07:35:15,481 [main] INFO logger_File - Scenario Exercise one Started 
+2022-03-07 07:35:38,773 [main] INFO logger_File - Exercise one   failed
+2022-03-07 07:48:11,926 [main] INFO logger_File - Scenario Exercise one Started 
+2022-03-07 07:48:40,700 [main] INFO logger_File - Exercise one   failed
+2022-03-07 09:33:11,546 [main] INFO logger_File - Scenario Exercise one Started 
+2022-03-07 09:33:36,838 [main] INFO logger_File - Exercise one   failed
